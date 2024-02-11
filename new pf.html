@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash Portfolio</title>
+    <link rel="stylesheet" href="new pf.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font1|Font2&display=swap"> -->
+    <script src="https://kit.fontawesome.com/735ff7e9df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!---------------------------------------------------- H E A D E R--------------------------------------------------------------------->
+<div class="header">
+    <nav>
+        <a href="#" class="logo"><img src="images/11.png"</a>
+        <ul id="sidemenu">
+            <li><a href= "#header">Home</a></li>
+            <li><a href= "#about">About</a></li>
+            <li><a href= "#Certificates">Certificates</a></li>
+            <li><a href= "#Projects">Projects</a></li>
+            <li><a href= "#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        <div class="toggle-btn" id="btn">
+            <span id="btnText"></span>
+            <img src="images/moon.png" id="btnIcon">
+        </div>
+    </nav>
+
+    <a href="Home" class="scroll-to-top">&#9650</a>
+
+    <div class= "content">
+        <h2>Namaskar!!</h2>
+        <br>
+        <h5>I'm <b>Aakash Rajput</b>
+        <br>from <span>Noida, India.</span></h5>
+
+        <h4>Frontend Web Dev & Cyber Enthusiast </h4>
+        <br>
+        <h6>Pleasure to see you here!!</h6>
+        <a href="https://www.linkedin.com/in/aakash-rajput%F0%9F%87%AE%F0%9F%87%B3-064b361b4/">Hire me</a>
+    </div>
+
+    <div class="image-box">
+        <img src="images/home.png">
+        <div class="pattern">
+            <img src="images/background.png">
+            <img src="images/background.png">
+            <img src="images/background.png">
+            <img src="images/background.png">
+        </div>
+    </div>
+
+</div>
+<!-- <header class="fixed-header">
+    <div class="container">
+        <nav>
+            
+             <img src="images/heading.png" class="logo">
+             <ul id="sidemenu">
+                <li><a href= "#header">Home</a></li>
+                <li><a href= "#about">About</a></li>
+                <li><a href= "#Certificates">Certificates</a></li>
+                <li><a href= "#Projects">Projects</a></li>
+                <li><a href= "#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+             <img src="images/mode.png" id="icon">
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+             <div class="toggle-btn">
+                <span>Dark</span>
+                <img src="images/moon.png">
+            </div> 
+        </nav>
+         <div class="content" id="btn">
+            <h1>Namaskar!!</h1>
+            <br>
+            <h1><span>I'm</span> Aakash Rajput</h1>
+            <p>(Frontend Web Developer & Cyber Enthusiastic)</p>
+            <br>
+            <h4>Pleasure to see you here.</h4>
+             <a href="#">Hire me</a>
+            
+        </div> -->
+        <!-- <div class="image"-box>
+            <img src="images/home_img.png">
+            <div class="patter">
+                <img src="images/background.png">
+                <img src="images/background.png">
+            </div>
+        </div>
+        
+    </div>
+     <button id="toggleNightMode">Toggle Night Mode</button>
+</header> -->
+
+<!-------------------------------------------------------A B O U T--------------------------------------------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <p class="summary"><img src="images/official.jpeg" width="150px" alt="Aakash Photo"></p>
+            </div>
+            <div class="about-col-2">
+                <h2 class="sub-title">About</h2>
+                <p>
+                    Aakash is a final-year student and a web development enthusiast. He is passionate about building innovative and user-friendly web applications. He is currently learning frontend web development and aims to become a successful
+                    full-stack web developer in the near future.
+                    <br>
+                    He has been a highly motivated and self-driven EX-NCC cadet where he got selected for ALC(Avanced Leadership Camp) camp, where he learned about valuable lessons of Communication and Leadership skills on ground. He has a strong learning curve and is always eager to take a new challanges and ready to explore other things. 
+                    <br>
+                    <br>
+                    In addition to his soft skills, he is also socially adaptable and cooperative. He is able to work effectively in a team environment. He is also determined to achieve his goals. pursuing his B.tech degree in Computer Science discipline. Aakash is passionate about reading history and non-fiction books, cycling and exploring web. </p>
+
+                <div class="tab-titles">
+                    <p class=" tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class=" tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class=" tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Front-End Developer</span><br>Using the HTML, CSS & Javascript.</li> 
+                        <li><span>Web Development</span><br>Designing Web/App front-end interface.</li>
+                        <li><span>Java Developer</span><br>Building Android Apps.</li>
+                    </ul>
+                </div>
+
+                <!-- <details>
+                    <summary>Soft Skills</summary>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>Using the HTML, CSS & Javascript.</li> 
+                            <li><span>Web Development</span><br>Designing Web/App front-end interface.</li>
+                            <li><span>Java Developer</span><br>Building Android Apps.</li>
+                        </ul>
+                    </div>
+                </details>
+                
+                <details>
+                    <summary>Hard Skills</summary>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Front-End Developer</span><br>Using the HTML, CSS & Javascript.</li> 
+                                <li><span>Web Development</span><br>Designing Web/App front-end interface.</li>
+                                <li><span>Java Developer</span><br>Building Android Apps.</li>
+                            </ul>
+                        </div>
+                 </details> -->
+                
+
+                <!-- <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Front-End Developer</span><br>Using the HTML, CSS & Javascript.</li> 
+                        <li><span>Web Development</span><br>Designing Web/App front-end interface.</li>
+                        <li><span>Java Developer</span><br>Building Android Apps.</li>
+                    </ul>
+                </div> -->
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>May 2023</span><br>Web Developer Intern at Oasis Infobyte.</li> 
+                        <li><span>June 2023</span><br>Web Developer Intern at Code Clause.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2020-2024</span><br>Pursuing B.Tech in CS discipline from Dr. APJ Abdul Kalam Technical University, Lucknow.</li> 
+                        <li><span>2017-2020</span><br>Sr. Secondary from N.M Public School, Greater Noida.</li>
+                        <li><span>2015-2017</span><br>High School from Vishal International School.</li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div> 
+<!-------------------------------------------------------- Certificates------------------------------------------------------------>
+<div id="Certificates">
+    <div class="container">
+        <h4 class="sub-title">Certificates</h4>
+        <div class="Certificates-list">
+
+            <div>
+                <i class="fa-solid fa-file-certificate"></i>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h3>Introduction to HTML</h3>
+                <br>
+                <p>This certification course helped me to clear and clarify my theoretical concepts along practising those on a code editor.</p>
+                <br>
+                <a href="https://www.sololearn.com/certificates/CC-8DJS23SP">View</a>
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-file-certificate"></i>
+                <!-- <i class="fa-brands fa-java"></i> -->
+                <h3>Introduction to CSS</h3>
+                <br>
+                <p>This certification course helped me to clear and clarify my theoretical concepts along practising those on a code editor.</p>
+                <br>
+                <a href="https://www.sololearn.com/certificates/CC-9S9ZCXQ9">View</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-file-certificate"></i>
+                 <!-- <i class="fa-regular fa-user-shield"></i> -->
+                <h3>Introduction to Javascript</h3>
+                <br>
+                <p>This certification course helped me to clear and clarify my basic level of theoretical concepts along practising those on a code editor.</p>
+                <br>
+                <a href="https://www.sololearn.com/certificates/CC-NAR59VYW">View</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------Projects------------------------------------------------------------>
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/R1.png">
+                <div class="layer">
+                    <h3>Online Resume</h3>
+                    <p>This is my online resume.</p>
+                    <a href="https://resume-36903a.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                    <!-- https://arajput108.github.io/onlineresume/ -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bose ji.jpg">
+                <div class="layer">
+                    <h3>Tribute Page</h3>
+                    <p>This is my second project of Tribute Page, where I gave tribute to our Netaji.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Java.jpg">
+                <div class="layer">
+                    <h3>To-do Web App</h3>
+                    <p>You can add your daily schedule and all the tasks of the day.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div> 
+</div>
+
+<!-------------------------------------------------C O N T A C T------------------------------------------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>aakashrajput408@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>To be updated soon</p>
+                <div class="social-icons">
+                    <!-- <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-solid fa-envelope"></i></a> -->
+                    
+                    <a href="https://www.linkedin.com/in/aakash-rajput%F0%9F%87%AE%F0%9F%87%B3-064b361b4/"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                    <a href="https://github.com/Vajra404"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="https://twitter.com/vajra93000?t=oxoY8afXlrPK5Bfh6YwuEg&s=09"><i class="fa-brands fa-twitter"></i></a>
+                     
+                    <a href="https://www.quora.com/profile/Aakash-Rajput-%E0%A4%86%E0%A4%95%E0%A4%BE%E0%A4%B6-%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A5%81%E0%A4%A4?ch=10&oid=409424791&share=6cf1b747&srid=pIXOh&target_type=user"><i class="fa-brands fa-quora"></i></a>
+                </div>
+                <a href="Resume_intern.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <!-- <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div> -->
+
+            <div class="contact-container">
+                <h1>Drop Message here!!</h1>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+      
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your E-mail Id">
+      
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write Your Man ki baat here"></textarea>
+      
+                    <button type="submit">Send</button>
+                </form>
+                <div id="response"></div>
+            </div>
+</div>
+
+<!-------------------------------------------------- F O O T E  R------------------------------------------------------------------->
+<!-- <div id="footer">
+    <div class="container">
+        <nav>
+</div> -->
+
+<!-------------------------COPY RIGHT SECTION--------------->
+        <div class="copyright">     
+            <p>Copyrights <i class="fa-solid fa-copyright" style="color: #fff;"> 2023,</i> All rights reserved</p>
+            <br>
+            <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/aakash-rajput%F0%9F%87%AE%F0%9F%87%B3-064b361b4/"> Aakash Rajput </a></p>
+            
+        </div>
+    </div>
+</div>
+
+<!-----------------------------------------------------J A V A   S C R I P T----------------------------------------------------------->
+<!-- <script src="new pf.js"></script> -->
+<script>
+    let btn = document.getElementById("btn");
+    let btnText = document.getElementById("btnText");
+    let btnIcon = document.getElementById("btnIcon");
+
+    btn.onclick= function(){
+        document.body.classList.toggle("dark-theme");
+
+        
+        if(document.body.classList.contains("dark-theme")){
+            btnIcon.src= "images/sun.png";
+            btnText.innerHTML= "";
+        }else{
+            btnIcon.src= "images/moon.png";
+            btnText.innerHTML= "";
+        }
+                    
+    }
+</script>
+
+<script>
+    let btn= document.getElementById("btn");
+
+    btn.onclick= function(){
+        document.body.classList.toggle("dark-theme");
+    }
+</script>
+
+<script>
+    function toggleScrollToTopArrow(){
+        const scrollArrow= document.querySelector('.scroll-to-top');
+
+        if(window.scrollY > 300) {
+            scrollArrow.classList.add('show-scroll-to-top');
+        } else{
+            scrollArrow.classList.remove('show-scroll-to-top');
+        }
+    }
+    //Add a scroll event listener to toggle thr arrow
+    window.addEventListener('scroll', toggleScrollToTopArrow);
+
+    //Smooth scroll to top when the arrow is clicked
+    document.querySelector('.scroll-to-top').addEventListener('click', function(e){
+        e.preventDefault();
+
+        window.scrollTo({
+            top: 0,
+            behaviour: 'smooth'
+        });
+    });
+</script>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){ 
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+  
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script> 
+
+    <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxuK8bdpLnKE4n4zt8prvJbeqeyloJsOdBPf0ZARYGGAHe-6bf9x_iEt5HjmN_gRR5y/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+    
+    
+</body>
+</html>
+
+
+<!-- <nav class="navbar">
+    <div class="navbar-over lay"
+    onclick="toggleMenuOpen()"></div>
+
+    <button
+        type="button"
+        class="navbar-burger"
+        onclick="toggleMenuOpen()">
+        
+    <span class="materila-icons">Menu</span>
+    </button>
+
+    <h1 class="navbar-title">Awards</h1>
+    <nav class="navbar-menu">
+        <button type="button">About</button>
+        <button type="button">Projects</button>
+        <button type="button">Contact</button>
+    </nav>
+    </nav>
+    <script type="text/javascript">
+        const toggleMenuOpen= ()
+        document.body.classList.toggle("open");
+    </script> -->
